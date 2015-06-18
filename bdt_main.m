@@ -19,7 +19,7 @@ global X Y C num mvar Pr pmin Xt pC Tp K Cf q_nom x_min x_max  Pp
 % Set parameters:
 
 % the minimal number of data points allowed in DT nodes  
-pmin = 5;
+pmin = 10; %10best
 
 % the variance of a Gaussian for change-rule moves for continuos features
 q_sig = .1; 
@@ -28,14 +28,14 @@ q_sig = .1;
 q_nom = 5; %1
 
 % the number of burn-in samples
-nb = 100*1000; %50000
+nb = 100*1000; 
 
 % the number of post burn-in samples
-np = 10*1000; % 5000
+np = 10*1000;
 
 % the proposal probabilities for birth, death, 
 % change-question, and change-rule moves
-Pr = cumsum([0.2 0.2 0.2 0.4]);
+Pr = cumsum([0.1 0.1 0.2 0.6]);
 
 % the sampling rate to convert MC into an i.i.d. process
 sample_rate = 7;
