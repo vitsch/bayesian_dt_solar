@@ -13,9 +13,7 @@ Matlab scripts and functions:
 	mc_test
 	mc_rpt
 
-The script has been used for interpretation of solar flares from UCI ML repository https://archive.ics.uci.edu/ml/datasets/Solar+Flare. 
-
-Details are given in the book chapter V. Schetinin, V. Zharkova and S. Zharkov "Bayesian Decision Tree Averaging for the Probabilistic Interpretation of Solar Flare Occurrences", In: Knowledge-Based Intelligent Information and Engineering Systems. Lecture Notes in Computer Science Volume 4253, 2006, pp 523-53, http://link.springer.com/chapter/10.1007%2F11893011_67. 
+Details of implementation are given in the book chapter V. Schetinin, V. Zharkova and S. Zharkov "Bayesian Decision Tree Averaging for the Probabilistic Interpretation of Solar Flare Occurrences", In: Knowledge-Based Intelligent Information and Engineering Systems. Lecture Notes in Computer Science Volume 4253, 2006, pp 523-53, http://link.springer.com/chapter/10.1007%2F11893011_67. 
 
 Abstract
 
